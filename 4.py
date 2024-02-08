@@ -10,6 +10,6 @@ def encrypt(message):
   cipher = (message**e) % n
   print(cipher)
 
-message = int(input("Enter your message: "))
+message = int(input("Enter your number message: "))
 
 encrypt(message)
